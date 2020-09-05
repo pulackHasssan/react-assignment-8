@@ -10,7 +10,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 
 const Comment = (props) => {
-    const { name, email, body, id } = props.comment;
+    const { name, email, body } = props.comment;
 
     // const [photos, setPhotos] = useState([]);
 
